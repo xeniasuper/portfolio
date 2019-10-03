@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700&display=swap');
+
+#root {
+    font-family: 'Roboto Mono', monospace;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#me {
+    width: 300px;
+}
+
+#about-me {
+    color: #3a3b40;
+    width: 600px;
+}
+
+#projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#nebula-pic {
+    width: 100%;
+    box-shadow: 0px 0px 15px 5px #E8E8E8;
+    border-radius: 10px;
+}
+.project-title {
+    font-weight: bold;
+}
+
+#loyalty-app-pic {
+    width: 100%;
+    box-shadow: 0px 0px 20px 5px #E8E8E8;
+    border-radius: 50px;
+}
+
+#hello {
+    font-size: 2em;
+}
+
+.title {
+    font-size: 2em;
+}
+
+.project {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#nebula-project {
+    width: 450px;
+    height: 300px;
+}
+
+#loyalty-app-project {
+    width: 250px;
+}
+
+.project:link {
+    text-decoration: none;
+}
+
+.project:visited {
+    color: black;
+}
+
+.project-description:hover {
+    text-decoration: none;
+}
+
+#work-experience {
+    margin-bottom: 50px;
+}
+
+#additional-info {
+    width: 100%;
+}
+
+#social {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.link {
+    font-weight: normal;
+    text-decoration: underline;
+    text-decoration-color: #ffcc00;
+    color: black;
+}
+
+.link:hover {
+    font-weight: normal;
+    text-decoration: underline;
+    text-decoration-color: #ffcc00;
+}
+
+#email-about-section {
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    width: 580px;
+}
+
+#additional-skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.skill {
+    width: 350px;
+}
+
+.social-link,
+.social-link:visited {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 32px;
+    color: #ffcc00;
+    background-color: white;
+    border: solid #ffcc00 2px;
+}
+
+.social-link:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #ffcc00;
+    border: solid #ffcc00 2px;
+}
+
+#vk {
+    margin-left: 20px;
+    margin-right: 20px;
+}
