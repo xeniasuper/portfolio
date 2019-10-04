@@ -1,13 +1,18 @@
-'use strict';
+(function () {
+    'use strict';
 
-let projects = [...document.getElementsByClassName("project")];
+    let projects = [...document.getElementsByClassName("project")];
+    let yellow = "#ffcc00";
 
-projects.forEach((project) => {
-    project.addEventListener("mouseover", (event) => {
-        project.children[1].children[0].style.textDecoration = "underline";
+    projects.forEach((project) => {
+        let projectLink = project.children[1].children[0].children[0];
+
+        project.addEventListener("mouseover", () => {
+            projectLink.style.color = yellow;
+        });
+
+        project.addEventListener("mouseleave", () => {
+            projectLink.style.color = "#000000";
+        });
     });
-
-    project.addEventListener("mouseleave", (event) => {
-        project.children[1].children[0].style.textDecoration = "none";
-    });
-});
+})();
