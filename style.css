@@ -142,11 +142,23 @@
     border-radius: 10px;
 }
 
-#loyalty-app-project {
+#weather-mgmt {
     width: 250px;
 }
 
+#weather-mgmt-pic {
+    width: 100%;
+    box-shadow: 0 0 15px 5px #E8E8E8;
+    border-radius: 32px;
+}
+
+#loyalty-app-project {
+    width: 250px;
+    float: right;
+}
+
 #loyalty-app-pic {
+    margin-top: 50px;
     width: 100%;
     box-shadow: 0px 0px 20px 5px #E8E8E8;
     border-radius: 32px;
