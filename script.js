@@ -6,6 +6,7 @@
 
     projects.forEach((project) => {
         let projectLink = project.children[1].children[0].children[0];
+        projectLink.style.color = "#000000";
 
         project.addEventListener("mouseover", () => {
             projectLink.style.color = yellow;
