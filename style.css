@@ -134,11 +134,10 @@
 }
 
 #white-island {
-    height: auto;
+    width: 350px;
 }
 
 #white-island-pic {
-    max-height: 500px;
     width: 100%;
 }
 
@@ -150,6 +149,7 @@
     #nebula-project,
     #white-island {
         width: 90%;
+        height: auto;
     }
 }
 
