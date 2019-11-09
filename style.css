@@ -172,7 +172,6 @@
 #loyalty-app-project {
     width: 250px;
     height: 600px;
-    float: left;
 }
 
 @media screen and (max-width: 850px) {
@@ -189,7 +188,6 @@
 
 #recognizer {
     width: 250px;
-    float: right;
 }
 
 #recognizer-pic {
@@ -200,6 +198,14 @@
 
 #additional-info {
     width: 100%;
+}
+
+.project-right {
+    float: right;
+}
+
+.project-left {
+    float: left;
 }
 
 @media screen and (max-width: 850px) {
