@@ -133,6 +133,10 @@
     color: #000000;
 }
 
+.project-pic {
+    box-shadow: 0 0 20px 5px #E8E8E8;
+}
+
 #white-island {
     width: 350px;
 }
@@ -155,7 +159,6 @@
 
 #nebula-pic {
     width: 100%;
-    box-shadow: 0 0 15px 5px #E8E8E8;
     border-radius: 10px;
 }
 
@@ -182,7 +185,6 @@
 
 #loyalty-app-pic {
     width: 100%;
-    box-shadow: 0px 0px 20px 5px #E8E8E8;
     border-radius: 32px;
 }
 
@@ -192,7 +194,6 @@
 
 #recognizer-pic {
     width: 100%;
-    box-shadow: 0px 0px 20px 5px #E8E8E8;
     border-radius: 32px;
 }
 
