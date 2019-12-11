@@ -288,6 +288,7 @@
     flex-flow: row;
     align-items: center;
     justify-content: center;
+    margin: auto;
     width: 200px;
 }
 
